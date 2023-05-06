@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "bundler",
+        "declaration": true,
+        "outDir": "./tsc-mjs-dist"
+    },
+    "include": ["./src/**.mts", "./src/**.ts"]
+}

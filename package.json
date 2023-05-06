@@ -1,0 +1,17 @@
+{
+  "name": "issue-unbuild-mts-cts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xiaoxiangmoe/issue-unbuild-mts-cts.git",
+  "author": "ZHAO Jin-Xiang <xiaoxiangmoe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run unbuild-build && yarn run tsc-build",
+    "unbuild-build": "unbuild",
+    "tsc-build": "tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1"
+  }
+}
